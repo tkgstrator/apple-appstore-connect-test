@@ -41,4 +41,5 @@ jobs:
         MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
         GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
         GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+        XCODE_VERSION: 14.3.1
       run: bundle exec fastlane beta
