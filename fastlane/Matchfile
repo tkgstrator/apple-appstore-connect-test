@@ -1,8 +1,7 @@
-PRIVATE_TOKEN = ENV['PRIVATE_TOKEN']
-gitlab_project("tkgstrator/apple-appstore-connect-test")
-gitlab_host("https://gitlab.com")
+git_url("https://github.com/tkgstrator/apple-appstore-connect-test-match")
 
-storage_mode("gitlab_secure_files")
+storage_mode("git")
+
 type("development") # The default type, can be: appstore, adhoc, enterprise or development
 
 # app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])

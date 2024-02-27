@@ -7,3 +7,7 @@ match:
 .PHONY: nuke 
 nuke:
 	fastlane match nuke development
+
+.PHONY: build
+build:
+	fastlane beta
